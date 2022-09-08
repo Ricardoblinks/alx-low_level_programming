@@ -1,1 +1,0 @@
-Starting c programming today
