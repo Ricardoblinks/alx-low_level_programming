@@ -11,7 +11,8 @@ int main(void)
 
 {
 
-	int digit1 = 0;	int digit2, digit3;
+	int digit1 = 0;
+	int digit2, digit3;
 
 	while (digit1 <= 9)
 
@@ -50,7 +51,6 @@ int main(void)
 					{
 
 						putchar(',');
-
 						putchar(' ');
 
 					}
