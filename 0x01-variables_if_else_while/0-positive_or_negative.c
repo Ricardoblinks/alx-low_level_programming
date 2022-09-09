@@ -10,7 +10,6 @@
  * Return: Always 0 (Success)
 */
 
-
 int main(void)
 {
 	int n;
@@ -18,7 +17,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
-	/* print the value of if it matches any of the condition */
 	if (n > 0)
 	  {
 		printf("%d is positive\n", n );
