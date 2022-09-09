@@ -5,8 +5,6 @@
 /**
  * main: Entry point
  *
- * Description: Print last digit of n
- *
  * Return: always 0 (success)
  *
  */
