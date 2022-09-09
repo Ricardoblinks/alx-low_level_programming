@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main: Entry point
  *
  * Description: Print last digit of n
- * 
+ *
  * Return: always 0 (success)
  */
 
@@ -15,8 +16,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	printf("Last digit of %d is", n );
+	tmp = n % 10;
+	printf("Last digit of %d is", n);
 	if (n > 5)
 	{
 		printf("Last digit of n is %d and is greater than 5", n);
