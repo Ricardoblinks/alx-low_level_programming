@@ -3,7 +3,9 @@
 /**
  * main: entry point
  *
+ * description: prints _putchar without using printf and put
  * return: always (0) success
+ *
  */
 
 int main(void)
@@ -11,7 +13,7 @@ int main(void)
 	char array[] = "_putchar";
 	int c;
 
-	for (c=0;c<8;c++)
+	for (c = 0; c < 8; c++)
 	{
 		_putchar(array[c]);
 	}
