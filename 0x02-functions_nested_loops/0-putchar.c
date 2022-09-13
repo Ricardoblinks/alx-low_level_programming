@@ -1,13 +1,12 @@
 #include"main.h"
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * description: prints _putchar without using printf and put
+ * Description: prints _putchar using putchar prototype
  *
- * return: always 0 success
- */
-
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	char array[] = "_putchar";
@@ -19,5 +18,5 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return 0;
+	return (0);
 }
