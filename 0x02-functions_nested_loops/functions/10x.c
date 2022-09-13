@@ -1,6 +1,6 @@
 #include"main.h"
 
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	int a;
 	for (a = 0; a < 10; a++)
