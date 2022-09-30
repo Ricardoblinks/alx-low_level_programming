@@ -10,14 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	int a;
 	if (argc > 0)
 	{
-		for (a = 1; a < argc; a++)
-		{
-			_putchar(argv[a]);
-		}
-		_putchar('\n');
+		_putchar(argv[]);
 	}
+	_putchar('\n');
 	return (0);
 }
