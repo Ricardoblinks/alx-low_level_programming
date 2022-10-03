@@ -6,7 +6,7 @@
 char *_strdup(char *str)
 {
 	char *tmp;
-	int i;
+	int i, j;
 	
 	if (str == NULL)
 		return (NULL);
