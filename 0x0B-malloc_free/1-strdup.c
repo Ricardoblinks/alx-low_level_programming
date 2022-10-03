@@ -1,6 +1,10 @@
 #include"main.h"
 
 /**
+  * _strdup - function that returns a pointer
+  * @str: pointer to allocated memory, filled with
+  * strings
+  * return: a char pointer
   */
 
 char *_strdup(char *str)
