@@ -1,18 +1,21 @@
 #include"main.h"
 
 /**
-  * creat_array - create array of chars
+  * create_array - create array of chars
   * @size: size of chars
   * @c: character operand
   *
-  * Return: a char
+  * Return: NULL if size is less equal to 0
+  * otherwise - return a char
   */
 
 char *create_array(unsigned int size, char c)
 {
 	char *s;
 
-	s = malloc(sizeof(c) * size);
+	if (size == 0)
+		return (NULL);
 
-	return s;
+	s = malloc(sizeof(c) * size);
+	return (s);
 }
